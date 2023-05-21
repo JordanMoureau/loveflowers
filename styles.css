@@ -1,0 +1,288 @@
+@font-face {   
+    font-family: "Bebas";   
+    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');             
+  }
+  
+  @font-face {
+    font-family: "times";
+    src: url('fonts/Times\ New\ Roman.ttf') format('truetype'); 
+  }
+  
+  @font-face {
+    font-family: "times italic";
+    src: url('fonts/Times\ New\ Roman\ Italic.ttf') format('truetype'); 
+  }
+  
+  @font-face {
+    font-family: "times bold";
+    src: url('fonts/Times\ New\ Roman\ Bold.ttf') format('truetype'); 
+  }
+  
+  @font-face {
+    font-family: "times bold italic";
+    src: url('fonts/Times\ New\ Roman\ Bold\ Italic.ttf') format('truetype'); 
+  }
+  
+  body{
+    margin: 0;
+  }
+
+  .container{
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+  }
+
+  .header{
+    margin: 0 auto;
+    width: 80%;
+    font-family: "times bold";
+    display: flex;
+    padding-bottom: 40px;
+  }
+
+  .logo {
+    font-size: 32px;
+    line-height:28px;
+    width:30%;
+  }
+
+  .nav-container{
+    width:30%;
+    display:flex;
+    justify-content: space-evenly;
+  }
+
+  .nav-buttons{
+    font-size: 15px;
+    margin-top: 43px;
+  }
+
+  .nav-buttons:hover{
+    color: #FFCAD0;
+    cursor:pointer;
+  }
+
+  .social-container{
+    display:flex;
+    justify-content: flex-end;
+    width: 40%;
+  }
+
+  .social{
+    margin: 24px 5px 0px 0px;
+    align-items: flex-end;
+    cursor:pointer;
+  }
+
+  .hero{
+    margin: 0 auto;
+    width: 80%;
+    height: 60%;
+    background-image: url("images/hero.png");
+    background-repeat: 'no repeat';
+    background-position: center;
+    background-size:cover;
+    font-family: "Bebas";  
+    color: #fff;
+    font-size:250px;
+    font-weight:900;
+    padding: 400px 40px 40px 40px;
+    line-height:190px;
+  }
+
+  .footer{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 20px;
+    display:flex;
+    font-size: 12px;
+    font-family: "times italic";
+    justify-content: flex-end;
+  }
+
+
+  @media (min-width: 0px){
+    .container{
+      padding: 0px;
+    }
+
+    .header{
+      padding-bottom: 20px;
+      padding-top: 40px;
+    }
+
+   .logo{
+    font-size: 30px;
+    width:70%;
+   }
+
+   .hamburger{
+    width: 10%;
+    float:right;
+    font-size: 35px;
+    margin-top:-7px;
+    margin-left:48px;
+   }
+
+   .hamburger:hover{
+    color:#FFCAD0;
+    cursor: pointer;
+   }
+
+    .nav-container{
+      display:none;
+    }
+
+    .social-container{
+      display:none;
+    }
+    
+
+    .hero{
+      font-size: 74px;
+      line-height: 64px;
+      padding: 290px 5% 19px 5%;
+      width: 90%;
+    }
+
+  }
+
+  @media (min-width: 450px){
+    .hero{
+      font-size:115px;
+      line-height:89px;
+    }
+
+    .hamburger{
+      margin-left: 130px;
+    }
+  }
+
+  @media (min-width: 650px){
+    .hero{
+      font-size:155px;
+      line-height:122px;
+      padding: 390px 5% 19px 5%;
+    }
+
+    .hamburger{
+      margin-left: 130px;
+    }
+  }
+
+  @media (min-width: 850px){
+    .hamburger{
+      display:none;
+    }
+
+    .container{
+      margin: 0 auto;
+      padding: 5%;
+      width: 90%;
+    }
+
+    .hero{
+      font-size:175px;
+      line-height:142px;
+      padding: 430px 7% 19px 7%;
+      width:86%;
+    }
+
+    .header{
+      padding-bottom: 40px;
+      padding-top: 20px;
+    }
+
+    .logo {
+      font-size: 32px;
+      line-height:28px;
+      width:30%;
+    }
+
+    .nav-container{
+      display:flex;
+      width: 60%;
+      margin-left: 150px;
+      margin-top:-4px;
+    }
+
+  }
+
+  @media (min-width: 950px){
+    .hero{
+      font-size: 205px;
+      line-height: 162px;
+    }
+  }
+
+  @media (min-width: 1280px){
+    .container{
+      margin: 0 auto;
+      padding: 5%;
+      width: 90%;
+    }
+
+    .hamburger{
+      display:none;
+    }
+  
+    .header{
+      margin: 0 auto;
+      width: 80%;
+      font-family: "times bold";
+      display: flex;
+      padding-bottom: 40px;
+    }
+  
+    .logo {
+      font-size: 32px;
+      line-height:28px;
+      width:30%;
+    }
+  
+    .nav-container{
+      width:30%;
+      display:flex;
+      justify-content: space-evenly;
+    }
+  
+    .nav-buttons{
+      font-size: 15px;
+      margin-top: 43px;
+    }
+  
+    .nav-buttons:hover{
+      color: #FFCAD0;
+      cursor:pointer;
+    }
+  
+    .social-container{
+      display:flex;
+      justify-content: flex-end;
+      width: 40%;
+    }
+  
+    .social{
+      margin: 24px 5px 0px 0px;
+      align-items: flex-end;
+      cursor:pointer;
+    }
+  
+    .hero{
+      margin: 0 auto;
+      width: 80%;
+      height: 60%;
+      background-image: url("images/hero.png");
+      background-repeat: 'no repeat';
+      background-position: center;
+      background-size:cover;
+      font-family: "Bebas";  
+      color: #fff;
+      font-size:250px;
+      font-weight:900;
+      padding: 400px 40px 40px 40px;
+      line-height:190px;
+    }
+  
+  }
