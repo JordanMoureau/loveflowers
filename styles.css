@@ -271,6 +271,7 @@ img {vertical-align: middle;}
   border-radius: 0 3px 3px 0;
   user-select: none;
   background-color:#fff;
+  font-family: "times bold";
 }
 
 /* Position the "next button" to the right */
