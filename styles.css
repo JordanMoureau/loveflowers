@@ -400,6 +400,10 @@ p {
   .col-two{
     width:47%;
   }
+
+  .inner-wrap{
+    display:flex;
+  }
 }
 
 
