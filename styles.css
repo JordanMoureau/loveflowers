@@ -61,7 +61,7 @@ p {
   }
   
   .nav-container{
-  width:30%;
+  width:45%;
   display:flex;
   justify-content: space-evenly;
   }
@@ -69,6 +69,7 @@ p {
   .nav-buttons{
   font-size: 15px;
   margin-top: 43px;
+  margin-right: 6px;
   }
   
   .nav-buttons:hover{
@@ -179,51 +180,50 @@ p {
 .flower-one{
   position: absolute;
   z-index: -1;
-  top: 100vh;
-  right:40%;
+  top: 92vh;
+  right:37%;
 }
 
 .flower-two{
   position: absolute;
-  z-index: -1;
-  top: 89vh;
-  right: 30%;
+  z-index: -5;
+  top: 101vh;
+  right: 50%;
 }
 
 .flower-three{
   position: absolute;
   z-index:-1;
   top: 94vh;
-  right: 2%;
+  right: 7%;
 }
 
 .flower-four{
   position: absolute;
-  z-index:-1;
+  z-index:-2;
   top: 88vh;
   left: 40%;
 }
 
 .flower-five{
   position: absolute;
-  z-index:-1;
+  z-index:-2;
   top: 77vh;
   left: 60%;
 }
 
 .flower-six{
   position: absolute;
-  z-index:-1;
-  top: 89vh;
-  left: 14%;
-  overflow:hidden;
+  z-index:-3;
+  top: 88vh;
+  left: 18%;
 }
 
 .flower-seven{
   position: absolute;
   z-index:-1;
-  top: 104vh;
-  left: 2%;
+  top: 99vh;
+  left: 10%;
 }
 
 
@@ -258,30 +258,29 @@ img {vertical-align: middle;}
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 0;
+  bottom: 0;
   width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: black;
+  padding: 0px 20px;
+  color: white;
   font-weight: bold;
-  font-size: 18px;
-  border-radius: 0 3px 3px 0;
+  font-size: 22px;
   user-select: none;
-  background-color:#fff;
+  background-color:#E0DAD3;
   font-family: "times bold";
 }
 
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  padding-top: 35%;
 }
 
 /* On hover, add a pink background color */
-.prev:hover, .next:hover {
+.next:hover {
   background-color: #FFCAD0;
   color:white;
 }
@@ -294,6 +293,10 @@ img {vertical-align: middle;}
 
 .logo{
   width:70%;
+}
+
+p {
+  line-height: 3vh;
 }
 
 .hamburger-container{
@@ -372,7 +375,31 @@ img {vertical-align: middle;}
   display:none;
 }
 
+.inner-wrap{
+  display: block;
+  width: 100%;
+}
 
+.col-one{
+  margin-bottom: 32px;
+  width:100%;
+}
+
+.col-two{
+  width:100%;
+}
+
+
+}
+
+@media (min-width: 650px){
+  .col-one{
+    width:47%;
+  }
+  
+  .col-two{
+    width:47%;
+  }
 }
 
 
@@ -395,7 +422,7 @@ margin-left: 150px;
 
 
 
-@media (min-width: 950px){
+@media (min-width: 1050px){
 .nav-container{
   width: 40%;
 }
