@@ -40,7 +40,7 @@ h2{
 }
 
 p {
-  line-height: 1.9vh;
+  line-height: 1.2rem;
 }
 
 /*nav bar styles & hero*/
@@ -177,11 +177,13 @@ p {
 }
 
 /*paralax flower styles*/
+
 .flower-one{
   position: absolute;
   z-index: -1;
   top: 92vh;
   right:37%;
+  overflow: hidden;
 }
 
 .flower-two{
@@ -189,6 +191,7 @@ p {
   z-index: -5;
   top: 101vh;
   right: 50%;
+  overflow: hidden;
 }
 
 .flower-three{
@@ -196,6 +199,7 @@ p {
   z-index:-1;
   top: 94vh;
   right: 7%;
+  overflow: hidden;
 }
 
 .flower-four{
@@ -203,6 +207,7 @@ p {
   z-index:-2;
   top: 88vh;
   left: 40%;
+  overflow: hidden;
 }
 
 .flower-five{
@@ -210,6 +215,7 @@ p {
   z-index:-2;
   top: 77vh;
   left: 60%;
+  overflow: hidden;
 }
 
 .flower-six{
@@ -217,6 +223,7 @@ p {
   z-index:-3;
   top: 88vh;
   left: 18%;
+  overflow: hidden;
 }
 
 .flower-seven{
@@ -224,6 +231,7 @@ p {
   z-index:-1;
   top: 99vh;
   left: 10%;
+  overflow: hidden;
 }
 
 
@@ -293,10 +301,6 @@ img {vertical-align: middle;}
 
 .logo{
   width:70%;
-}
-
-p {
-  line-height: 3vh;
 }
 
 .hamburger-container{
@@ -386,15 +390,48 @@ p {
 }
 
 .col-two{
+  margin-bottom: 32px;
   width:100%;
 }
 
+footer {
+  flex-direction: column;
+}
+
+
+.column-foot{
+  width: 90%;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.flower-five{
+  display:none;
+}
+
+.flower-two{
+  left: 0;
+  top: 90vh;
+}
+
+.flower-four{
+  left: 55%;
+}
+
+.flower-three{
+  right: 0;
+}
 
 }
 
 @media (min-width: 650px){
   .col-one{
     width:47%;
+  }
+
+  .flower-five{
+    display:block;
   }
   
   .col-two{
@@ -403,6 +440,12 @@ p {
 
   .inner-wrap{
     display:flex;
+  }
+
+  .column-foot{
+    width:25%;
+    margin: 0px 10px;
+    border: none;
   }
 }
 
@@ -430,6 +473,8 @@ margin-left: 150px;
 .nav-container{
   width: 40%;
 }
+
+
 
 .social-container{
   display:flex;
