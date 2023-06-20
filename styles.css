@@ -430,12 +430,50 @@ footer {
     width:47%;
   }
 
+
+  .flower-one{
+    top: 92vh;
+    right:37%;
+  }
+  
+  .flower-two{
+    top: 101vh;
+    right: 50%;
+  }
+  
+  .flower-three{
+    top: 94vh;
+    right: 7%;
+  }
+  
+  .flower-four{ 
+    top: 88vh;
+    left: 40%;
+
+  }
+  
   .flower-five{
+    top: 77vh;
+    left: 60%;
     display:block;
+  }
+  
+  .flower-six{
+    top: 88vh;
+    left: 18%;
+  }
+  
+  .flower-seven{
+    top: 86vh;
+    left: 10%;
   }
   
   .col-two{
     width:47%;
+  }
+
+  footer {
+    flex-direction:inherit;
   }
 
   .inner-wrap{
