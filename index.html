@@ -1,173 +1,257 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>A Flower Shop</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="styles.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="images/favi.png"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-</head>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A Flower Shop</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="shortcut icon" type="image/png" href="images/favi.png"/>
+        <link rel="stylesheet" href="styles.css">
 
-<body>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
 
- 
-        <div class="rellax flower-one" data-rellax-speed="1">
-            <img src="images/falling-01.png" width="90">
-          </div>
+    <body class="container-fluid">
+        <header class="header row">
+            <div class="logo">Love<br>& Flowers</div>
+
+            <nav class="ml-auto d-none d-md-block">
+                
+                <ul class="row float-right">
+                    <li><span style="background-color: #FFDA69;">home</span></li>
+
+                    <li><a href="ourshop.html">our shop</a></li>
+
+                    <li><a href="aboutus.html">about us</a></li>
+
+                    <li><a href="contactus.html">contact us</a></li>
+
+                </ul>
+            </nav>
+
+            <div class="dropdown d-md-none d-block  ml-auto">
+                <div class="menu">
+                    <div id="hamburger">
+                        <div class="bar1"></div>
+                        <div class="bar3"></div>
+                    </div>
+
+                    <div id="mobilemenu">
+                        <ul class="row">
+                            <li class="col-12"><span style="background-color: #FFDA69;">home</span></li>
         
-
-        <div class="rellax flower-three" data-rellax-speed="1" style="transform: rotate(20deg)" >
-            <img src="images/falling-03.png" width="120">
-          </div>
-
-      <div class="rellax flower-four" data-rellax-speed="1">
-        <img src="images/falling-04.png" width="190">
-      </div>
-
-      <div class="rellax flower-two" data-rellax-speed="1">
-        <img src="images/falling-02.png" width="120">
-      </div>
-
-      <div class="rellax flower-five" data-rellax-speed="1">
-        <img src="images/falling-05.png" width="290">
-      </div>
-
-      <div class="rellax flower-six" data-rellax-speed="1">
-        <img src="images/falling-06.png" width="300">
-      </div>
-
-
-      <div class="rellax flower-seven" style="transform: rotate(48deg)" data-rellax-speed="2">
-        <img src="images/falling-07.png" width="160">
-      </div>
-
-      
-    <div class="header">
-        <div class="logo">Love<br /> & Flowers</div>
-       <div class="nav-container">
-            <div class="nav-buttons">home</div>
-            <div class="nav-buttons">our shop</div>
-            <div class="nav-buttons">blog</div>
-            <div class="nav-buttons">hours & contact</div>
-        </div>
-
-     
-
-        <div class="social-container">
-            <div class="social"><img src="images/instagram.png" width="35px" height="35px"></div>
-            <div class="social"><img src="images/pinterest.png" width="35px" height="35px"></div>
-            <div class="social"><img src="images/twitter.png" width="35px" height="35px"></div>
-            <div class="social"><img src="images/facebook.png" width="35px"     height="35px"></div>
-        </div>
+                            <li class="col-12"><a href="ourshop.html">our shop</a></li>
         
-        <div class="hamburger-container">
+                            <li class="col-12"><a href="aboutus.html">about us</a></li>
+        
+                            <li class="col-12"><a href="contactus.html">contact us</a></li>
+        
+                        </ul>
+                    </div>
+                  </div>
+            </div>
+        </header>
 
-            <div class="hamburger" onclick="hamBurger(this)">
-                <div class="bar1"></div>
-                <div class="bar3"></div>
+       <div class="hero">
+            <div class="hero-headliner">
+                Romance is<br>
+                <span style="color:#FFCAD0">in the air</span> 
+            </div>
+       </div>
 
-                <div id="mobileMenu" class="dropdown-content">
-                <a href="index.html">home</a>
-                <a href="shop.html">our shop</a>
-                <a href="blog.html">blog</a>
-                <a href="contact.html">hours & contact</a>
+       <div class="spacer">
+        
+       </div>
+
+       <section class="row">
+            <div class="col-4 ml-sm-1 ml-md-5 mb-5 d-flex justify-content-between">
+                <img src="images/paralaxflowershome1.png" width="50px" height="50px;">
+                <img src="images/paralaxflowershome2.png" width="50px" height="50px;">
+                <img src="images/paralaxflowershome3.png" width="50px" height="50px;">
+                <img src="images/paralaxflowershome4.png" width="50px" height="50px;">
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xl-5 col-sm-10 ml-auto mr-5 mb-5">
+                <h1>The Mission is Love...</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam doloribus officia error velit sapiente, quam veritatis tempora vitae deleniti voluptas, neque consequuntur recusandae officiis ipsa. Maxime est veritatis quas quidem.</p>
+
+                <h1>The Method is Flowers...</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam doloribus officia error velit sapiente, quam veritatis tempora vitae deleniti voluptas, neque consequuntur recusandae officiis ipsa.</p>
+            </div>
+
+            <div class="card col-xl-4 col-lg-4 col-md-4 col-sm-12 pb-3 " style="padding: 2rem">
+                <img src="images/cardone.png" class="card-img-top pt-3" alt="yellow flowers"/>
+                <div class="card-body text-right col-8 ml-auto">
+                  <p class="card-text">Culpa voluptatibus a odio, mollitia autem quaerat placeat.</p>
+                  
                 </div>
+              </div>
+
+              <div class="card col-xl-4 col-lg-4 col-md-4 col-sm-12" style="padding: 2rem">
+                <img src="images/cardtwo.png" class="card-img-top pt-3" alt="Fissure in Sandstone"/>
+                <div class="card-body text-right col-8 ml-auto">
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                  
+                </div>
+              </div>
+
+              <div class="card col-xl-4 col-lg-4 col-md-4 col-sm-12 " style="padding: 2rem">
+                <img src="images/cardthree.png" class="card-img-top pt-3" alt="Fissure in Sandstone"/>
+                <div class="card-body text-right col-8 ml-auto">
+                  <p class="card-text">Consequatur libero nemo architecto ea ipsa delectus.</p>
+                  
+                </div>
+              </div>
+
+              <div class="gray-bar col-12 text-center my-5">
+                    <h3>Flowers by the Stem</h3>
+                </div>
+            
+                <div class="row mx-auto d-flex align-items-center justify-content-center">
+                    <div class="image-slider">
+                    <img clas="img-responsive" src="images/ranunculous1.png" height="326px" width="326px">
+                    <div class="image-arrows">
+                        < >
+                    </div>
+                    </div>
+
+                    <div class="col-9 col-md-4 ml-5 mt-5">
+                        <h1>Ranunculous</h1>
+                        <p>Minima repudiandae deserunt quisquam minus.</p>
+                    </div>
+                </div>
+
+                <div class="row mx-auto d-flex align-items-center justify-content-center mt-5">
+                    <div class="image-slider">
+                        <div class="image-arrows">
+                            < >
+                        </div>
+                    <img clas="img-responsive" src="images/gardenroses1.png" height="326px" width="326px">
+                   
+                    </div>
+
+                    <div class="col-9 col-md-4 ml-5 mt-5">
+                        <h1>Garden Roses</h1>
+                        <p>Minima repudiandae deserunt quisquam minus.</p>
+                    </div>
+                </div>
+
+                <div class="row mx-auto d-flex align-items-center justify-content-center mt-5">
+                    <div class="image-slider">
+                    <img clas="img-responsive" src="images/lisanthus1.png" height="326px" width="326px">
+                    <div class="image-arrows">
+                        < >
+                    </div>
+                    </div>
+
+                    <div class="col-9 col-md-4 ml-5 mt-5">
+                        <h1>Lisanthus</h1>
+                        <p>Minima repudiandae deserunt quisquam minus.</p>
+                    </div>
+                </div>
+
+                <div class="row position-relative">
+                    <div class="headliner">Welcome<br>to our<br>Wonderland</div>
+                 
+                    <div class="sub-liner">We hope you enjoy your stay.</div>
+
+                    <div class="abs-flower-one d-none d-sm-block">
+                        <img src="images/wonderlandflower1.png" width="86">
+                     </div>
+
+                     <div class="abs-flower-two d-none d-sm-block">
+                        <img src="images/wonderlandflower2.png" width="86">
+                     </div>
+
+                     <div class="abs-flower-three d-none d-sm-block">
+                        <img src="images/wonderlandflower3.png" width="86">
+                     </div>
+                 </div>
+
+              
+
+       </section>
+
+
+        <footer>
+            <div class="row d-md-flex">
+                <div class="col-md-3 col-lg-4 col-sm-5 col-xl-3">
+                    <h1>Love<br>& Flowers</h1>
+                    <p><mark>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy erat volutpat.</mark></p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <ul class="row">
+                        <li class="col-12 p-0">
+                            <a href=index.html aria-current="page">home</a>
+                        </li>
+    
+                        <li class="col-12 p-0">
+                            <a href="ourshop.html">our shop</a>
+                        </li>
+                        <li class="col-12 p-0">
+                            <a href="aboutus.html">about us</a>
+                        </li>
+                        <li class="col-12 p-0">
+                            <a href="contactus.html">contact us</a>
+                        </li>
+    
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mt-3">
+                    <h1 style="font-size:15px;">Our Address</h1>
+                    <p>Love & Flowers<br>
+                        1234 Wisteria Lane<br>
+                        Happyville, WA 77777</p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h1 style="font-size:15px;">Contact Us</h1>
+                    <p>(123) 456-7777<br>
+                        love@loveflowers.com</p>
+                </div>
+
+
             </div>
+
+
+        <div class="row d-flex align-items-center mt-4">
+    
+            <div class="col-md-7 col-lg-8 text-md-start mt-5">
+                <!-- Copyright -->
+                <h4>
+                © 2023 Copyright:
+                <a class="text-white" href="https://loveflowers.jordanmoureau.com/">loveflowers.com</a>
+                </h4>
+                <!-- Copyright -->
+            </div>
+    
+
+        
+            <div class="col-md-2 col-lg-2 ml-auto mt-3">
+                <!-- Facebook -->
+                <a><img src="images/facebook.png" width="30px" height="30px"></a>
+
+                <!-- Twitter -->
+                <a><img src="images/instagram.png" width="30px" height="30px"></a>
+
+                <!-- Google -->
+                <a><img src="images/twitter.png" width="30px" height="30px"></a>
+
+                <!-- Instagram -->
+                <a><img src="images/pinterest.png" width="30px" height="30px"></a>
+            </div>
+
         </div>
-
-     </div>
-  <section class="hero">
-    <img src="images/hero.png" alt="" class="parallax">
-    <div class="text-wrapper">
-        <h1 class="headline">Romance is <br> in the air</h1>
-        <h2 class="sub-headline">the mission is love - the method is flowers</h2>
-    </div>
-  </section>
-
-  <section class="element-one" style="color:#C6C2BD;">
-        <div class="inner-wrap">
-            <div class="col-one">
-                <h2>We Have Specialty Flowers</h2>
-                <p>
-                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et ipsum porro enim repudiandae qui itaque reprehenderit unde recusandae non voluptatem sed deserunt facere, officiis inventore impedit saepe nihil fuga id?
-                   <br><br>
-                   Lorem ipsum dolor sit amet consectetur adipisicing elit. In quas voluptate labore aliquid iste consequuntur. At cupiditate, voluptatibus officiis, ut iste nostrum et saepe illo in animi voluptates. Minima, sapiente.
-                </p>
-            </div>
-            <div class="col-two">
-                <h2>All The Pretty Flowers</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptas asperiores aliquam voluptatibus distinctio modi quisquam perspiciatis odio! Natus a nostrum qui vitae reprehenderit sint doloremque alias aliquid cum aut.
-                    <br><br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consectetur sequi possimus incidunt eveniet ullam. Odio quia aperiam enim expedita iusto harum non facilis, maxime quisquam, dicta a rem sed.
-                </p>
-            </div>
-        </div>
-  </section>
-
- 
-  <section class="slideshow-container">
-
-    <div class="mySlides fade">
-      <img src="images/slides-01.png" style="width:100%">
-    </div>
     
-    <div class="mySlides fade">
-      <img src="images/slides-02.png" style="width:100%">
-    </div>
-    
-    <div class="mySlides fade">
-      <img src="images/slides-03.png" style="width:100%">
-    </div>
-
-    <a class="next" onclick="plusSlides(1)">></a>
-    
-</section>
-
-<section class="final-element">
-    <div class="bebas">Welcome to Our Wonderland, <br>We Hope You Enjoy Your Visit</div>
-</section>
 
 
-    <script type="text/javascript" src="rellax.js"></script>
-    <script type="text/javascript" src="option.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-<script>
-  var rellax = new Rellax('.rellax', {
-    // center: true
-    callback: function (position) {
-      // callback every position change
-      console.log(position);
-    },
-    breakpoints: [576, 768, 1024]
-  });
-</script>
-
-</body>
-
-<footer>
-    <div class="column-foot">
-        <h2>Support</h2>
-        <a href="#">Contact Us</a><br>
-        <a href="#">About Us</a><br>
-        <a href="#">Careers</a>
-    </div>
-
-    <div class="column-foot">
-        <h2>Our Other Sites</h2>
-        <a href="www.jordanmoureau.com" target="_blank">portfolio</a><br>
-        <a href="sushy.jordanmoureau.com" target="_blank">sushy game</a><br>
-        <a href="winter.jordanmoureau.com" target="_blank">winter time poetry</a>
-    </div>
-
-    <div class="column-foot">
-        <h2>Where We Are</h2>
-        <p>111 E Country Village Dr<br>South NoWheresville, WA 123456</p>
-        <br>
-        (356) 994-8713
-    </div>
+    </footer>
 
 
-</footer>
-
+       
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </body>
 </html>
