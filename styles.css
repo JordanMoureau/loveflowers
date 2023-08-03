@@ -124,7 +124,7 @@
   }
 
   section{
-    margin-bottom: 100px;
+    margin-bottom: 90px;
   }
   
   .row{
@@ -179,7 +179,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  height: 80vh;
+  height: 87vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -258,8 +258,53 @@
   top: 55%;
 }
 
-/*shop styles*/
+.contact{
+  background-image: url(images/Native-Poppy-South-Park-2023_1024x1024.webp);
+  padding: 10vw 30vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: black;
+  font-family: "times";
 
+}
+
+input{
+  border: none !important;
+  border-bottom: 3px dotted #FFDA69 !important;
+  border-radius: 0 !important;
+}
+
+input:focus{
+  border-color:#FFDA69 !important;
+}
+
+select:focus{
+  border: none;
+}
+
+textarea{
+  border: none !important;
+  border-bottom: 3px dotted #FFDA69 !important;
+  border-radius: 0 !important;
+  resize: none !important;
+}
+
+textarea:focus{
+  border-color: #FFDA69 !important;
+}
+
+.btn{
+  background-color: #FFDA69 !important;
+  color:black !important;
+  border-radius: 0 !important;
+  font-size: 16px !important;
+}
+
+.btn:hover{
+  background: #FFCAD0 !important;
+}
 
 
 /*footer styles */
